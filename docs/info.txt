@@ -1,0 +1,17 @@
+Hola, paso explicar un poco de que se trata mi pagina y como esta construida GabrielAPK.
+
+Se trata de una tienda de insumos informaticos, en este caso dentro del contenedor (Inicio) tenemos el contenedor principal de la misma, ya que muestra todos los productos que se venden en la tienda. Dentro de estos productos tenemos 4 tipos de Categorias: Procesadores, Motherboards, Placas de video, Memorias ram.
+
+En la barra de navegacion tenemos un boton rojo tipo dropdown llamado (Filtrar), que su funcion es como bien dice, filtrar los productos mediante una categoria, la cual nos redirige a un contenedor especifico de cada una de estas.
+
+Los 2 botones de la barra de navagacion (Nosotros) y (Ayuda), todavia no tienen un contenido especifico.
+
+Una vez que presionamos el boton (Ver Producto) del producto elegido, nos redirige a un contenedor que posee una card, la cual muestra todo la informacion especifica del mismo.
+
+Tenemos un boton (Comprar) dentro del detalle del producto, que su futura funcion sera enviar los productos a comprar dentro del contenedor carrito de compras.
+
+En la barra de navegacion tambien tenemos un boton con el icono de un carrito de compras, el cual va a contener todo los productos a comprar por el usuario, para poder finalizarlos en una sola compra.
+
+
+Gabriel Martinez.
+

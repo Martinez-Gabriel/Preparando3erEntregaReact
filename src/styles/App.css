@@ -1,0 +1,75 @@
+.hola{
+    width: 30rem;
+    display: flex;
+    justify-content: center;
+}
+
+.tamaño {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.nose {
+ width: 50%;
+}
+
+.nose1 {
+    width: 50%;
+   }
+
+.tamañoCardNombre {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.accordion-button {
+    background-color: rgba(98, 98, 119, 0.142);
+}
+
+.botonCarrito {
+    margin: 0.4rem
+}
+
+  .cardProducto {
+    width: 18rem;
+    margin: 10px;
+  }
+
+.contenedorProductos {
+    display: flex;
+    justify-content: center ;
+}
+
+.h1Productos{
+    display: flex;
+    justify-content: center;
+    margin: 4rem;
+}
+
+.botonDropdown{
+    width: 3rem;
+    height: 3rem;
+}
+.navEstilos{
+    position: fixed;
+    z-index:1000;
+	top:0;
+    width: 100%;
+}
+
+.containerProductos{
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.animacion-btn {
+    transition:linear 4s;
+}
+
+.animacion-btn:hover {
+    transform: scale(1.10);
+    transition: all 0.1s;
+}
