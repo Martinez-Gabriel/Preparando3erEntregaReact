@@ -8,7 +8,7 @@ const Carrito = () => {
 
     useEffect(() => {
         const prodMostrar  = carrito.map(producto => 
-            <div className="card cardProducto" key={producto.id}>
+            <div className="card cardProducto containerProductos" key={producto.id}>
                     <img src={"./img/" + producto.img} className="card-img-top" alt={producto.nombre} />
                         <div className="card-body">
                             <h5 className="card-title">{producto.nombre}</h5>
@@ -21,7 +21,7 @@ const Carrito = () => {
         setCarritoLocal(prodMostrar)
     }, [carrito]);
     
-   const app = (carrito.length != 0) ? <div className='row'> {carritoLocal} </div> : <> <h1>No existen elementos en el carrito <button className='btn btn-dark'>Volver a Inicio</button></h1></>
+   const app = (carrito.length != 0) ? <div className='row'> {carritoLocal} </div> : <> <h1 className='containerProductos'>No existen elementos en el carrito <button className='btn btn-dark'>Volver a Inicio</button></h1></>
           
     return app
 }
